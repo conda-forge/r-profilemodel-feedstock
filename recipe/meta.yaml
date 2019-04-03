@@ -1,4 +1,4 @@
-{% set version = '0.5-9' %}
+{% set version = "0.6.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,11 +13,11 @@ source:
     - https://cran.r-project.org/src/contrib/profileModel_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/profileModel/profileModel_{{ version }}.tar.gz
 
-  sha256: c94f25d222521867ddc86021bd0b9a6b9f7b055212985652a8511054b24c2bdd
+  sha256: a829ceec29c817d6d15947b818e28f9cf5a188a231b9b5d0a75018388887087b
 
 build:
   noarch: generic
-  number: 2001
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
