@@ -37,6 +37,7 @@ test:
 about:
   home: http://www.ucl.ac.uk/~ucakiko/index.html
   license: GPL 2.0
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
   summary: profileModel provides tools that can be used to calculate, evaluate, plot and use
     for inference the profiles of *arbitrary* inference functions for *arbitrary* 'glm'-like
     fitted models with linear predictors.
@@ -45,6 +46,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
-    - johanneskoester
-    - bgruening
