@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,11 +13,11 @@ source:
     - https://cran.r-project.org/src/contrib/profileModel_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/profileModel/profileModel_{{ version }}.tar.gz
 
-  sha256: a829ceec29c817d6d15947b818e28f9cf5a188a231b9b5d0a75018388887087b
+  sha256: 91dc25e81f52506593f5c8d80a6131510b14525262f65b4ac10ae0cad0b2a506
 
 build:
   noarch: generic
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -37,10 +37,8 @@ test:
 about:
   home: http://www.ucl.ac.uk/~ucakiko/index.html
   license: GPL 2.0
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
-  summary: profileModel provides tools that can be used to calculate, evaluate, plot and use
-    for inference the profiles of *arbitrary* inference functions for *arbitrary* 'glm'-like
-    fitted models with linear predictors.
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  summary: profileModel provides tools that can be used to calculate, evaluate, plot and use for inference the profiles of *arbitrary* inference functions for *arbitrary* 'glm'-like fitted models with linear predictors.
   license_family: GPL
 
 extra:
