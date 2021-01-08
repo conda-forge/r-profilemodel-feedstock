@@ -5,11 +5,9 @@ Home: http://www.ucl.ac.uk/~ucakiko/index.html
 
 Package license: GPL 2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-profilemodel-feedstock/blob/master/LICENSE.txt)
 
 Summary: profileModel provides tools that can be used to calculate, evaluate, plot and use for inference the profiles of *arbitrary* inference functions for *arbitrary* 'glm'-like fitted models with linear predictors.
-
-
 
 Current build status
 ====================
