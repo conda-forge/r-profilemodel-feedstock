@@ -3,7 +3,7 @@ About r-profilemodel
 
 Home: http://www.ucl.ac.uk/~ucakiko/index.html
 
-Package license: GPL 2.0
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-profilemodel-feedstock/blob/master/LICENSE.txt)
 
