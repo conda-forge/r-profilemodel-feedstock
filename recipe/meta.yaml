@@ -1,6 +1,5 @@
 {% set version = "0.6.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-profilemodel
@@ -13,8 +12,7 @@ source:
   sha256: 91dc25e81f52506593f5c8d80a6131510b14525262f65b4ac10ae0cad0b2a506
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
