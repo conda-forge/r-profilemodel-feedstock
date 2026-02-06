@@ -1,4 +1,4 @@
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/profileModel_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/profileModel/profileModel_{{ version }}.tar.gz
-  sha256: 91dc25e81f52506593f5c8d80a6131510b14525262f65b4ac10ae0cad0b2a506
+  sha256: a2b0b9af8b5ebe9bd732f1f6663f171929c0831f77c260b5aa9a126a12cf2ac1
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
